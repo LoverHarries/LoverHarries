@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Age Validation</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h2>Age Validation by LoverDevOps !</h2>
+    <form id="ageForm">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+    <div class="form-group">
+        <label for="year_of_birth">Year of birth:</label>
+        <input type="number" id="year_of_birth" name="year_of_birth" placeholder="For example: 2000" required>
+    </div>
+    <button type="submit" class="submit">Submit</button>
+</form>
+
+    <!-- Popup container -->
+        <div id="popup" class="popup">
+            <p id="popupMessage"></p>
+            <button id="closePopup">OK</button>
+        </div>
+</body>
+</html>

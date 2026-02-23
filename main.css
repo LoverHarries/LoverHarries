@@ -1,0 +1,76 @@
+body{
+    display: flex;               /* turn body into a flex container */
+    flex-direction: column;      /* stack elements vertically */
+    justify-content: center;     /* center vertically */
+    align-items: center;         /* center horizontally */
+    min-height: 100vh;           /* make body full height of viewport */
+    margin: 0;                   /* remove default body margin */
+    font-family: Arial, sans-serif;
+    align-content: center;
+    background-color: rgb(142, 203, 228);
+}
+
+
+.popup {
+    display: none; /* hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    text-align: center;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.popup p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.popup button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.popup button:hover {
+    background-color: #45a049;
+}
+
+form {
+    border-radius: 4px;
+    margin: 12px;
+    padding: 20px;
+    border:3px solid black;
+    background-color: white;
+}
+.form-group {
+    margin-bottom: 15px; /* space between fields */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px; /* space between label and input */
+}
+
+.form-group input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-color: rgb(31, 207, 238);
+}
+.submit {
+    border-radius: 4px;
+    background-color: #4CAF50;
+    
+}
